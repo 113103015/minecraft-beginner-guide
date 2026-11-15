@@ -1,0 +1,226 @@
+<!DOCTYPE html>
+<html lang="zh-Hant">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="description" content="Minecraft 基岩版第四章：認識生命與飢餓、取得食物、辨認怪物、練習戰鬥防禦與撤退，做好洞穴探險及回程準備。適用 Windows 鍵盤與滑鼠。">
+  <meta name="theme-color" content="#284c36">
+  <title>第四章：生存與探險｜Minecraft 新手生存指南</title>
+  <link rel="stylesheet" href="../css/style.css">
+</head>
+<body id="top">
+  <a class="skip-link" href="#main">跳至主要內容</a>
+  <header class="site-header">
+    <div class="container header-inner">
+      <a class="brand" href="../index.html" aria-label="Minecraft 新手生存指南首頁">
+        <span class="grass-block" aria-hidden="true"></span>
+        <span><strong>Minecraft</strong><span class="brand-subtitle">新手生存指南</span></span>
+      </a>
+      <nav class="site-nav" aria-label="主要導覽">
+        <a href="../index.html#chapters">教學章節</a>
+        <a href="../index.html#learning-path">學習路線</a>
+        <a href="../index.html#about">關於指南</a>
+      </nav>
+    </div>
+  </header>
+
+  <main class="container lesson-page" id="main">
+    <nav class="breadcrumbs" aria-label="所在位置"><a href="../index.html">首頁</a><span aria-hidden="true">／</span><span aria-current="page">第四章：生存與探險</span></nav>
+    <header class="lesson-header">
+      <p class="eyebrow"><span class="square-dot" aria-hidden="true"></span> 冒險手冊 / 第四章</p>
+      <h1>生存與探險</h1>
+      <p class="lesson-intro">帶上食物與工具，也帶上一條回家的路。<br>能辨認危險、及時撤退，就是新手最重要的探險能力。</p>
+      <p class="platform-label">適用平台：Windows 電腦 · Bedrock Edition 基岩版 · 鍵盤與滑鼠</p>
+    </header>
+
+    <div class="lesson-layout">
+      <aside class="lesson-toc" aria-labelledby="toc-title">
+        <h2 id="toc-title">本章路線</h2>
+        <nav aria-label="本章目錄">
+          <a href="#goals">學習目標與探險準備</a>
+          <a href="#survival">01 生命值與飢餓值</a>
+          <a href="#food">02 取得與補充食物</a>
+          <a href="#mobs">03 認識常見怪物</a>
+          <a href="#combat">04 戰鬥、防禦與撤退</a>
+          <a href="#caves">05 洞穴探險裝備</a>
+          <a href="#return-home">06 回程與死亡風險</a>
+          <a href="#mistakes">常見錯誤與解法</a>
+          <a href="#review">重點回顧</a>
+          <a href="#completion">完成指南</a>
+        </nav>
+      </aside>
+
+      <article class="lesson-content" aria-label="生存與探險教學">
+        <section class="lesson-section" id="goals" aria-labelledby="goals-title">
+          <p class="eyebrow">出發前先看看</p>
+          <h2 id="goals-title">學習目標與探險前準備</h2>
+          <p>完成本章後，你將能夠：</p>
+          <ul>
+            <li>觀察生命與飢餓狀態，知道何時吃東西、休息或回家。</li>
+            <li>辨認四種常見怪物，選擇避開、掩護或短暫應戰。</li>
+            <li>在基岩版使用盾牌，並練習有退路的撤退方式。</li>
+            <li>準備短程洞穴探險裝備、留下回程標記，減少死亡後的損失。</li>
+          </ul>
+          <ol class="lesson-steps">
+            <li><strong>先讓基地能提供補給。</strong>確認已有避難所、工作台、熔爐與食物；工具不足時先回<a href="crafting-resources.html">第三章：合成與資源</a>補齊。</li>
+            <li><strong>選一個小目標。</strong>例如白天走到附近山坡，再原路回家。第一次不必深入洞穴，也不用為了完成教學刻意找怪物打架。</li>
+            <li><strong>出發前看狀態與天色。</strong>先吃飽、等生命恢復，再確認有足夠白天時間；準備不足就先留在基地。</li>
+          </ol>
+          <div class="lesson-callout lesson-callout-sand"><h3>版本、世界規則與操作範圍</h3><p>本章以一般主世界、非極限模式的生存遊戲為前提，使用基岩版 1.21.111 已有的基礎機制與 Windows 預設鍵盤滑鼠操作，不表示該版本是最新版本。簡單、普通與困難難度會影響傷害及飢餓後果；和平難度不適合練習這些一般怪物的應對。自然恢復、保留物品欄及附加內容也可能改變結果。按鍵可自訂；介面或行為無法對應時，需要確認目前版本、按鍵綁定及世界規則。觸控與控制器不適用本章按法。</p></div>
+        </section>
+
+        <section class="lesson-section" id="survival" aria-labelledby="survival-title">
+          <p class="eyebrow">步驟 01 / 先照顧自己</p>
+          <h2 id="survival-title">認識生命值、飢餓值與基本生存機制</h2>
+          <p>愛心代表生命值，食物形狀的圖示代表飢餓值。兩者有關係，但吃一口食物並不會立刻補滿所有愛心。</p>
+          <dl class="control-list">
+            <div><dt>生命值</dt><dd>怪物攻擊、摔落、火焰與溺水都可能造成傷害。一般生存模式生命歸零就會死亡；別等到只剩一點生命才找退路。</dd></div>
+            <div><dt>飢餓值</dt><dd>疾跑、跳躍與戰鬥等活動會消耗補給。飢餓值過低時無法疾跑，空腹也會妨礙自然恢復，飢餓歸零的傷害後果則依難度而異。</dd></div>
+            <div><dt>自然恢復</dt><dd>在啟用自然恢復的一般世界裡，保持高飢餓值能讓受損生命逐步恢復，也會繼續消耗食物儲備。先補食物並躲到安全處等待，不能把它當作立即治療。</dd></div>
+            <div><dt>其他環境風險</dt><dd>水下的氣泡提示剩餘空氣，太久不上岸會溺水。高處掉落、岩漿與火焰也很危險；有盔甲或盾牌仍需避開它們。</dd></div>
+          </dl>
+          <ol class="lesson-steps">
+            <li><strong>在安全地面先停下。</strong>看看愛心與飢餓圖示，再決定是否出發。這能避免帶著空腹或殘血直接進入未知地區。</li>
+            <li><strong>先補食物，再觀察生命。</strong>飢餓值不足時，依下一節的方法進食；待在室內，確認生命是否逐步回升。不要為測試恢復速度故意摔傷。</li>
+            <li><strong>把提前撤退當作習慣。</strong>生命持續下降、補給快用完或無法疾跑時，就返回已照亮的安全路線，而不是再找一塊礦才走。</li>
+          </ol>
+          <p class="practice-note">預期結果：你能分辨「需要吃東西」與「需要遠離傷害並等待恢復」，不把飢餓條與生命條當成同一件事。</p>
+        </section>
+
+        <section class="lesson-section" id="food" aria-labelledby="food-title">
+          <p class="eyebrow">步驟 02 / 補給比戰利品重要</p>
+          <h2 id="food-title">如何取得與補充食物</h2>
+          <p>先從容易取得的熟肉開始，再慢慢建立農田。不要把第一次長途探險，當成臨時尋找下一餐的方法。</p>
+          <ol class="lesson-steps">
+            <li><strong>就近取得原料。</strong>白天在基地附近找牛、豬、羊或雞，持武器按左鍵攻擊並撿起肉類掉落物；別為追逐一隻動物跑進陌生森林。</li>
+            <li><strong>回熔爐烹煮。</strong>右鍵開啟熔爐，上方放生肉，下方放煤炭、木炭等燃料，等右側出現熟肉後取出。熟肉適合當作出門的主要補給；生雞肉可能造成飢餓效果。</li>
+            <li><strong>練習補充飢餓值。</strong>把熟肉放進快捷欄，用數字鍵選中，離開工作台等可互動方塊，按住右鍵直到吃完。通常飢餓已滿時不能吃普通食物，不代表按鍵壞掉。</li>
+            <li><strong>讓食物來源能持續。</strong>之後可用鋤頭整理水源附近、上方有空間的泥土，在耕地右鍵種下小麥種子，提供照明並等成熟後收割。用工作台把 3 個小麥排成一列可合成麵包；小麥種子不能直接當成小麥使用。</li>
+            <li><strong>留一份備用補給在家。</strong>出門只帶本次需要的食物；回程還沒用完也不用勉強繼續，回家補齊再出發。</li>
+          </ol>
+          <div class="lesson-callout"><h3>不是所有掉落物都適合當常備食物</h3><p>腐肉可能造成飢餓效果，蜘蛛眼會造成中毒。初學時以熟肉或麵包補給較容易掌握，也別把看不懂的物品當成食物測試。農作物需要生長時間，出發前就應準備好可食用的成品。</p></div>
+          <p class="practice-note">小練習：在基地煮好幾份熟肉，確認如何選取與進食，再把部分存回箱子。</p>
+        </section>
+
+        <section class="lesson-section" id="mobs" aria-labelledby="mobs-title">
+          <p class="eyebrow">步驟 03 / 先辨認，再決定</p>
+          <h2 id="mobs-title">常見危險生物：殭屍、骷髏、苦力怕及蜘蛛</h2>
+          <p>夜晚與黑暗處常有危險。以下介紹一般種類；變種、裝備與世界設定可能使它們更難應付。蜘蛛在某些情況下會保持中立，不能一概當作永遠敵對或永遠安全。</p>
+          <dl class="control-list">
+            <div><dt>殭屍：近身追擊</dt><dd>會靠近並攻擊你，小殭屍移動更快。看到它時先保留距離，沿安全路線退開，別讓自己被逼到牆角。一般殭屍會在日照下燃燒，但陰影、水或裝備等情況可能讓它活下來。</dd></div>
+            <div><dt>骷髏：遠處射箭</dt><dd>手持弓，能在你還沒靠近時射中你。先退到實心牆或轉角後切斷射擊視線；不要沿空曠直線衝過去。一般骷髏也可能在白天的陰影裡存活。</dd></div>
+            <div><dt>苦力怕：靠近爆炸</dt><dd>綠色、沒有手臂，接近後可能發出嘶嘶聲並準備爆炸。立即往已確認安全的方向拉開距離，別站著拚最後一擊，也不要把它引到家門口。日光不會把它燒掉。</dd></div>
+            <div><dt>蜘蛛：會爬牆</dt><dd>在黑暗中會主動攻擊，且能爬上牆面。明亮時未被激怒的普通蜘蛛常保持中立，但已經追你的蜘蛛不一定立刻停下。不要主動挑釁，也別以為站上矮牆就一定安全；洞穴蜘蛛是另一種更危險的生物。</dd></div>
+          </dl>
+          <ol class="lesson-steps">
+            <li><strong>先從安全處觀察外形與位置。</strong>不要靠近測試怪物，尤其要看是否有第二隻躲在側面。</li>
+            <li><strong>找到可走的退路與掩護。</strong>例如已照亮的通道或封閉避難所；有掩護才能避開骷髏的遠距攻擊。</li>
+            <li><strong>選擇繞路或回家。</strong>敵人多、空間窄或退路不明時，直接放棄這條路線。預期結果是安全離開，而不是一定要擊倒對方。</li>
+          </ol>
+        </section>
+
+        <section class="lesson-section" id="combat" aria-labelledby="combat-title">
+          <p class="eyebrow">步驟 04 / 防禦是為了有機會退開</p>
+          <h2 id="combat-title">基本戰鬥、防禦與撤退技巧</h2>
+          <h3>先在基地準備盔甲與盾牌</h3>
+          <ol class="lesson-steps">
+            <li><strong>把武器放在固定格子。</strong>將劍移到熟悉的快捷欄格子，用數字鍵選中，避免遇敵時還在物品欄找武器。</li>
+            <li><strong>有盔甲就先穿好。</strong>按 E，把盔甲放到對應裝備欄位，再關閉介面。盔甲能減少部分傷害，但不保證擋住所有傷害。</li>
+            <li><strong>用工作台查找盾牌配方。</strong>一般盾牌需要 6 個木材與 1 個鐵錠；核對材料後合成，放進物品欄的副手欄位，讓另一手仍能持劍。</li>
+            <li><strong>練習基岩版的舉盾。</strong>在安全平地、站在地面上，裝好盾牌後按預設 <kbd>左 Shift</kbd> 進入潛行，觀察盾牌進入防禦姿態。按住或切換潛行依設定而定；先熟悉動作，不要第一次遇到箭才試。這裡使用的是基岩版潛行舉盾方式。</li>
+          </ol>
+          <div class="lesson-callout lesson-callout-sand"><h3>盾牌需要面向威脅，也不是全身無敵</h3><p>面向攻擊來源並提早防禦，能擋住許多正面攻擊與箭矢。側後方攻擊、環境傷害與某些攻擊仍可能傷到你；揮劍也可能讓防禦中斷。盾牌有耐久度，請檢查狀態，不要靠近苦力怕測試能否扛住爆炸。版本或附加內容若改變了舉盾行為，需要確認適用設定。</p></div>
+          <h3>不得不應戰時，先保留撤退空間</h3>
+          <ol class="lesson-steps">
+            <li><strong>先看腳下與後方。</strong>確認不會退進岩漿、深坑或另一群怪物。能繞過就繞過，不要在懸崖邊練戰鬥。</li>
+            <li><strong>只在有把握時短暫攻擊。</strong>選中劍、用準星對準近處敵人，按左鍵攻擊；之後拉開距離，重新確認生命和其他敵人的位置，別站在原地與多個敵人互打。</li>
+            <li><strong>受到遠距攻擊就找掩護。</strong>先面向來箭方向舉盾，再沿確認過的地面退到實心牆或轉角後。不要一邊背對箭矢，一邊期待盾牌保護後背。</li>
+            <li><strong>需要逃跑時，取消潛行再移動。</strong>看向已確認的退路，使用 W 移動；飢餓狀態允許時可配合左 Ctrl 疾跑。潛行會變慢，不能同時期待快速逃離與持續潛行防禦。</li>
+            <li><strong>到掩護後才進食與整理。</strong>回到封閉且照亮的安全處，檢查是否已脫離追擊，再選食物補充、等待恢復。預期結果是保住生命與補給，這次探險可以到此結束。</li>
+          </ol>
+        </section>
+
+        <section class="lesson-section" id="caves" aria-labelledby="caves-title">
+          <p class="eyebrow">步驟 05 / 背包裡要有回程的餘裕</p>
+          <h2 id="caves-title">洞穴探險準備：火把、工具、食物與備用物品</h2>
+          <p>以下是基地附近短程練習的建議清單，不是保證能走遍所有洞穴的數量。先準備好，再挑簡單路段。</p>
+          <dl class="control-list">
+            <div><dt>照明</dt><dd>建議帶至少 16 支火把，實際放在地面或牆上照亮道路。拿著火把不應當作已完成補光，也不要等用光最後一支才回頭。</dd></div>
+            <div><dt>工具與防禦</dt><dd>帶主要用鎬與備用鎬、劍，以及已有的盔甲和盾牌。採鐵礦、銅礦請用石鎬或鐵鎬；不同工具的採集限制請回第三章複習。</dd></div>
+            <div><dt>食物</dt><dd>帶數份熟肉或麵包，留足回程與恢復用的份量。食物快用完就退回，不要假設洞穴裡一定能找到下一餐。</dd></div>
+            <div><dt>備用建材與物品</dt><dd>帶一批泥土或鵝卵石補路、封住開口；一些木材與木棒可應急合成。行囊留空間裝採集物，家裡另外放備用工具和食物。</dd></div>
+          </dl>
+          <ol class="lesson-steps">
+            <li><strong>先在入口放標記。</strong>記住座標或地標，照亮入口，才能在返回地面時認出位置。</li>
+            <li><strong>一次只走一小段。</strong>前方看不清就先停下放火把，不直接跳進深處；沿單一路線走，避免第一次就探索多個岔路。</li>
+            <li><strong>站穩再挖。</strong>不直挖腳下或正頭頂；要向下就做能走回來的階梯。看到沙子、砂礫、岩漿、水流或大片黑暗空間時，先停下評估，必要時原路退回。</li>
+            <li><strong>定期做一次回程檢查。</strong>確認還知道入口在哪、鎬還有耐久、食物與火把足夠。任何一項不確定就折返，把收穫存好再說。</li>
+          </ol>
+          <p class="practice-note">小練習：在安全入口附近放幾支火把、採少量石材，再沿相同路線走回基地。短程往返比一次深入更容易建立方向感。</p>
+        </section>
+
+        <section class="lesson-section" id="return-home" aria-labelledby="return-title">
+          <p class="eyebrow">步驟 06 / 把回家也放進計畫</p>
+          <h2 id="return-title">減少迷路與死亡後遺失物品的風險</h2>
+          <h3>出發前先降低損失</h3>
+          <ol class="lesson-steps">
+            <li><strong>記下基地與洞口位置。</strong>可在基岩版世界設定開啟「顯示座標」，抄下 X、Y、Z 三個數字及地點名稱。Y 是高度，只記水平位置可能仍找不到地下通道；座標也不會自動替你找出安全路線。</li>
+            <li><strong>在岔路留下明確標記。</strong>例如進去時把火把放右側，返回時讓它們在左側；岔路再用不同方塊補標記。火把可能被改動，不能只靠一個記號保證不迷路。</li>
+            <li><strong>把重要物品分批存回家。</strong>暫時不用的稀有材料不要帶出門，帶回礦物後先存箱子。多一次回程能減少一次死亡損失全部收穫的風險。</li>
+            <li><strong>確認可用的重生位置。</strong>在基地使用床並確認遊戲提示重生點已設定，保留床及周圍空間。床被拆掉或重生位置受阻時，可能回到世界出生位置；極限模式則不能照一般生存模式重生。</li>
+          </ol>
+          <h3>若不小心死亡，先整理資訊再出發</h3>
+          <ol class="lesson-steps">
+            <li><strong>先記住位置與死因。</strong>留下最後知道的座標、地標及路線，分辨是怪物、摔落還是岩漿。死亡畫面不一定替你提供足夠定位資訊。</li>
+            <li><strong>重生後拿備用補給。</strong>先帶食物、簡單工具與照明，沿已知路線接近；不要空手反覆衝回同一個怪物群。</li>
+            <li><strong>安全時再取回掉落物。</strong>在未開啟保留物品欄的普通生存世界，死亡通常會掉落攜帶物品。先避開威脅、保留背包空間，再靠近撿取，拿到後立即退回安全處。</li>
+            <li><strong>接受有些物品無法取回。</strong>掉落物會受消失計時、區域是否持續運行，以及火焰、岩漿、爆炸等因素影響。不能保證離開一段現實時間後仍在，也不要為了搶回少量材料再冒一次高風險。</li>
+          </ol>
+          <div class="lesson-callout lesson-callout-sand"><h3>先確認世界規則，再判斷死亡結果</h3><p>若世界啟用了「保留物品欄」，死亡掉落情況會與本章一般情境不同；伺服器或附加內容也可能另有規則。這裡不把任何物品回收方式當成保證，先準備備用品與存放收穫最實際。</p></div>
+        </section>
+
+        <section class="lesson-section" id="mistakes" aria-labelledby="mistakes-title">
+          <p class="eyebrow">卡關時回來看看</p>
+          <h2 id="mistakes-title">新手常見錯誤與解決方法</h2>
+          <dl class="mistake-list">
+            <div><dt>吃了食物，怎麼還沒回滿愛心？</dt><dd>食物先補飢餓，生命通常要在自然恢復啟用、補給足夠且不再受傷時逐步恢復。先躲好等待；若仍沒恢復，確認世界規則與是否有持續傷害。</dd></div>
+            <div><dt>為什麼突然不能疾跑？</dt><dd>先檢查飢餓是否過低，或是否還處於潛行。到安全處進食，再確認疾跑按鍵綁定，不要在怪物追擊時才打開設定。</dd></div>
+            <div><dt>盾牌拿著卻一直中箭？</dt><dd>先確認副手已裝備、盾牌仍有耐久，且你已面向來箭方向並進入潛行防禦。提早準備，不要邊揮劍邊假設全程有防禦；無法對應時確認基岩版版本與自訂操作設定。</dd></div>
+            <div><dt>天亮了，為什麼門外還有怪物？</dt><dd>苦力怕與蜘蛛不會因日照燃燒；一般殭屍與骷髏也可能躲在陰影或因其他條件存活。出門前先觀察，不把天亮當成完全安全。</dd></div>
+            <div><dt>火把很多，為什麼還是迷路？</dt><dd>照明與方向標記是兩種用途。岔路要補上清楚標記，第一次縮短路線，並記下基地與入口座標。</dd></div>
+            <div><dt>剛重生又死在取物路上？</dt><dd>先停止重複空手衝刺。拿備用補給、評估死因，能安全接近才取回；物品可能已消失，重新收集基本材料有時更划算。</dd></div>
+          </dl>
+        </section>
+
+        <section class="lesson-section" id="review" aria-labelledby="review-title">
+          <p class="eyebrow">把冒險變成能持續的日常</p>
+          <h2 id="review-title">完成本章後的重點回顧</h2>
+          <ul>
+            <li><strong>先看自己：</strong>帶足食物，確認生命與飢餓狀態，不等到無法疾跑才回家。</li>
+            <li><strong>先看敵人：</strong>殭屍近身追擊、骷髏遠處射箭、苦力怕接近爆炸、蜘蛛會爬牆且可能轉為敵對。</li>
+            <li><strong>防禦有條件：</strong>在基岩版練習裝盾後潛行、面向威脅，留意盾牌耐久與防禦中斷。</li>
+            <li><strong>探險有餘裕：</strong>帶火把、適合的鎬、武器、食物與備用建材，保留撤退路線。</li>
+            <li><strong>收穫分批帶回：</strong>記座標、留路標、存物資，死亡後先評估，再決定是否取回。</li>
+          </ul>
+          <p>驗收任務：不刻意接近怪物，完成一次基地附近的短程往返。出發前檢查裝備與狀態，途中留下路標，回家後存放收穫，並說出你會在什麼情況下提前撤退。</p>
+          <p class="lesson-source">延伸參考（英文）：<a href="https://www.minecraft.net/en-us/article/health-minecraft">Minecraft 官方生命值指南</a>、<a href="https://www.minecraft.net/en-us/article/spawning-and-dying">出生與死亡指南</a>、<a href="https://www.minecraft.net/en-us/article/meet-creeper">苦力怕介紹</a>，以及<a href="https://www.minecraft.net/pl-pl/article/wandering-trader-shields-and-more-now-beta">基岩版盾牌潛行操作的官方介紹</a>。盾牌來源為歷史更新文章；本章採用其基岩版操作說明，不代表現在需要開啟測試版或實驗功能。內容以自己的文字整理，適用範圍與版本提醒見章首。</p>
+        </section>
+
+        <section class="lesson-section" id="completion" aria-labelledby="completion-title">
+          <p class="eyebrow">四章旅程 / 完成</p>
+          <h2 id="completion-title">恭喜完成 Minecraft 新手生存指南！</h2>
+          <p>你已走過基本操作、第一天生存、合成與資源，以及生存與探險四個章節。接下來可以回到自己的世界，從一個小目標開始反覆練習；遇到不熟的操作，再回來複習就好。</p>
+          <p class="practice-note">第四章是目前最後一章。帶上準備好的行囊，也記得為自己留一條回家的路。</p>
+        </section>
+
+        <nav class="chapter-pagination" aria-label="章節導覽">
+          <a class="button" href="crafting-resources.html"><span aria-hidden="true">←</span> 上一章：合成與資源</a>
+          <a class="button" href="../index.html#chapters">返回首頁 <span aria-hidden="true">→</span></a>
+        </nav>
+      </article>
+    </div>
+  </main>
+
+  <footer class="site-footer"><div class="container footer-inner"><p>Minecraft 新手生存指南 <span>｜ 一起從第一個方塊開始。</span></p><a href="#top">回到頂部 <span aria-hidden="true">↑</span></a></div><div class="container disclaimer">非官方新手教學網站，與 Mojang 或 Microsoft 無隸屬關係。</div></footer>
+</body>
+</html>
