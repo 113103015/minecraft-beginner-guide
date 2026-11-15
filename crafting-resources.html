@@ -1,0 +1,198 @@
+<!DOCTYPE html>
+<html lang="zh-Hant">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="description" content="Minecraft 基岩版第三章：學會使用合成區、工作台與配方書，認識常見工具，以及木頭、石頭、煤炭、鐵礦、銅礦的取得方式與安全採礦準備。適用 Windows 鍵盤滑鼠。">
+  <meta name="theme-color" content="#284c36">
+  <title>第三章：合成與資源｜Minecraft 新手生存指南</title>
+  <link rel="stylesheet" href="../css/style.css">
+</head>
+<body id="top">
+  <a class="skip-link" href="#main">跳至主要內容</a>
+  <header class="site-header">
+    <div class="container header-inner">
+      <a class="brand" href="../index.html" aria-label="Minecraft 新手生存指南首頁">
+        <span class="grass-block" aria-hidden="true"></span>
+        <span><strong>Minecraft</strong><span class="brand-subtitle">新手生存指南</span></span>
+      </a>
+      <nav class="site-nav" aria-label="主要導覽">
+        <a href="../index.html#chapters">教學章節</a>
+        <a href="../index.html#learning-path">學習路線</a>
+        <a href="../index.html#about">關於指南</a>
+      </nav>
+    </div>
+  </header>
+
+  <main class="container lesson-page" id="main">
+    <nav class="breadcrumbs" aria-label="所在位置"><a href="../index.html">首頁</a><span aria-hidden="true">／</span><span aria-current="page">第三章：合成與資源</span></nav>
+    <header class="lesson-header">
+      <p class="eyebrow"><span class="square-dot" aria-hidden="true"></span> 冒險手冊 / 第三章</p>
+      <h1>合成與資源</h1>
+      <p class="lesson-intro">知道材料從哪裡來，也知道該用什麼工具。<br>從看懂配方開始，把每一次採集變成下一步的準備。</p>
+      <p class="platform-label">適用平台：Windows 電腦 · Bedrock Edition 基岩版 · 鍵盤與滑鼠</p>
+    </header>
+
+    <div class="lesson-layout">
+      <aside class="lesson-toc" aria-labelledby="toc-title">
+        <h2 id="toc-title">本章路線</h2>
+        <nav aria-label="本章目錄">
+          <a href="#goals">學習目標與準備</a>
+          <a href="#crafting-grid">01 合成區與工作台</a>
+          <a href="#recipe-book">02 使用工作台與配方書</a>
+          <a href="#tools">03 認識常見工具</a>
+          <a href="#resources">04 資源與取得方法</a>
+          <a href="#mining">05 基礎安全採礦</a>
+          <a href="#mistakes">常見錯誤與解法</a>
+          <a href="#review">重點回顧</a>
+          <a href="#next-chapter">章節導覽</a>
+        </nav>
+      </aside>
+
+      <article class="lesson-content" aria-label="合成與資源教學">
+        <section class="lesson-section" id="goals" aria-labelledby="goals-title">
+          <p class="eyebrow">出發前先看看</p>
+          <h2 id="goals-title">學習目標與準備事項</h2>
+          <p>完成本章後，你將能夠：</p>
+          <ul>
+            <li>分辨物品欄的 2×2 合成區與工作台的 3×3 合成區。</li>
+            <li>查找配方、核對材料，完成一把石鎬的合成。</li>
+            <li>依用途選擇鎬、斧、鏟、劍與鋤頭。</li>
+            <li>用合適的鎬取得煤炭、粗鐵與粗銅，並安全返回基地。</li>
+          </ul>
+          <ol class="lesson-steps">
+            <li><strong>先完成第一天的準備。</strong>建議已有<a href="first-day.html">第二章介紹的避難所</a>、工作台與熔爐，讓你能在明亮、安全的地方練習。</li>
+            <li><strong>準備合成材料。</strong>帶一些木材、木棒與鵝卵石。還沒有石材時，先用木鎬在地表露出的石頭旁收集，不必立刻深入洞穴。</li>
+            <li><strong>核對操作設定。</strong>以下使用預設的 <kbd>E</kbd> 開啟物品欄、左鍵選取或破壞、右鍵放置或互動。若改過按鍵，請查看設定中的鍵盤與滑鼠項目；手機觸控與控制器操作不在本章按鍵範圍內。</li>
+          </ol>
+          <div class="lesson-callout lesson-callout-sand"><h3>版本範圍與銅裝備提醒</h3><p>本章以一般生存模式、未加裝會改變配方或掉落規則的內容為前提，採用基岩版 1.21.111 已有的基礎合成與採集機制；不代表這是最新版本。官方已在 1.21.111 加入銅工具、武器與盔甲，所以不能沿用「銅不能做工具」的舊說法。本章先走木鎬 → 石鎬 → 鐵鎬的學習路線，不要求製作銅裝備。介面、配方若與你的版本不符，需要確認目前版本及世界設定。</p></div>
+        </section>
+
+        <section class="lesson-section" id="crafting-grid" aria-labelledby="grid-title">
+          <p class="eyebrow">步驟 01 / 先看合成空間</p>
+          <h2 id="grid-title">物品欄合成區與工作台的差別</h2>
+          <p>「合成」是把指定材料依配方轉成新物品。不是所有東西放在一起都有效，有些配方也要求材料擺在特定位置。</p>
+          <dl class="control-list">
+            <div><dt>物品欄：2×2</dt><dd>按 E 可開啟，共四格，不必放置工作台。適合原木加工成木材、木棒、火把與工作台等小配方。</dd></div>
+            <div><dt>工作台：3×3</dt><dd>對地上的工作台按右鍵開啟，共九格。能做需要三格寬的鎬，以及熔爐等較大的配方，也能完成原本的小配方。</dd></div>
+            <div><dt>熔爐：原料＋燃料</dt><dd>熔爐不是較大的合成區。它需要燃料與等待時間，例如把粗鐵熔煉成鐵錠，不能在工作台直接完成這個步驟。</dd></div>
+          </dl>
+          <ol class="lesson-steps">
+            <li><strong>按 E 觀察四格合成區。</strong>放入一個原木，可得到 4 個對應樹種的木材。左鍵取出成品，再放到物品欄。</li>
+            <li><strong>製作或取出工作台。</strong>四格各放一個木材可做工作台；將它放入快捷欄、選中，對地面按右鍵放置。</li>
+            <li><strong>關閉物品欄，對工作台按右鍵。</strong>找到九格合成區，確認它比剛才多了一排與一列。接下來的大型配方都在這裡練習。</li>
+          </ol>
+          <p class="practice-note">預期結果：你能指出四格與九格合成區，並理解「缺工作台」與「缺材料」是兩種不同問題。</p>
+        </section>
+
+        <section class="lesson-section" id="recipe-book" aria-labelledby="recipe-title">
+          <p class="eyebrow">步驟 02 / 不必一次背下所有配方</p>
+          <h2 id="recipe-title">使用工作台與配方書合成物品</h2>
+          <p>配方書是遊戲裡的合成清單，讓你查看成品需要哪些材料。這次用「3 個鵝卵石＋2 根木棒」做一把石鎬；材料請放在自己的物品欄，而不是留在箱子裡。</p>
+          <ol class="lesson-steps">
+            <li><strong>對工作台按右鍵開啟介面。</strong>找到配方清單；若它收起來了，使用介面上的配方切換按鈕展開。按鈕圖示與位置可能因介面設定或版本不同而改變。</li>
+            <li><strong>查找「石鎬」。</strong>使用分類或搜尋欄找名稱。若看不到，檢查是否開啟「只顯示可合成」之類的篩選；改看全部可見配方，才能查缺什麼材料。配方顯示也可能受世界的配方解鎖設定影響。</li>
+            <li><strong>選取配方並看材料預覽。</strong>左鍵點石鎬配方，核對是否有 3 個鵝卵石與 2 根木棒；若顯示缺料，先補材料。還沒有木棒時，把 2 個木材上下排列，可合成 4 根木棒。</li>
+            <li><strong>取出成品。</strong>材料齊全時，從成品格取出石鎬並放進物品欄，再移到快捷欄。不要只看到配方圖案，就以為已經拿到工具。</li>
+            <li><strong>關閉介面並選中石鎬。</strong>收好游標拿著的物品，按 E 或 Esc 返回遊戲，用數字鍵選取對應快捷欄格子。手上應出現石鎬。</li>
+          </ol>
+          <div class="lesson-callout"><h3>也可以手動擺出石鎬配方</h3><p>在 3×3 合成區最上排三格各放 1 個鵝卵石，中間格與最下排中央各放 1 根木棒，其餘格子留空。拿著一疊材料時，對合成格按右鍵可放入一個。擺好後取出右側石鎬，材料才會轉成成品。</p></div>
+          <p class="practice-note">小練習：先用配方書完成一把石鎬，再觀察它用了哪些材料。知道「材料＋擺法＋合成空間」，就比只記物品名稱更容易排除問題。</p>
+        </section>
+
+        <section class="lesson-section" id="tools" aria-labelledby="tools-title">
+          <p class="eyebrow">步驟 03 / 選對工具再動手</p>
+          <h2 id="tools-title">常見工具：鎬、斧、鏟、劍及鋤頭</h2>
+          <p>工具種類決定適合做什麼，材質則影響耐用程度、效率及可採集範圍。不要把所有工具都當成挖礦工具。</p>
+          <dl class="control-list">
+            <div><dt>鎬：石頭與礦物</dt><dd>選中後長按左鍵採集石頭、煤礦等。用木鎬挖一般石頭可取得鵝卵石；鐵礦與銅礦則改用石鎬或鐵鎬，避免沒有掉落物。</dd></div>
+            <div><dt>斧：木頭</dt><dd>選中斧頭，對樹幹長按左鍵，能比徒手更有效率地收集原木。原木再加工成木材，是工具、木棒與建材的來源。</dd></div>
+            <div><dt>鏟：泥土等鬆軟方塊</dt><dd>對泥土、沙子或砂礫長按左鍵，適合整地與收集填洞材料。鏟子不能代替鎬取得礦物；也不要挖正上方會掉落的沙子或砂礫。</dd></div>
+            <div><dt>劍：應對生物</dt><dd>選中劍後按左鍵攻擊，主要用於戰鬥，不適合拿來挖石頭。初期遇到危險仍先撤回避難所，別為了測試武器衝進怪物群。</dd></div>
+            <div><dt>鋤頭：整理耕地</dt><dd>在基地選一塊上方有空間的泥土或草地，拿鋤頭按右鍵可變成耕地，之後用來種作物。需要水源與照明的農田規劃可留待後續學習；鋤頭不會讓礦物掉落。</dd></div>
+          </dl>
+          <ol class="lesson-steps">
+            <li><strong>在工作台查找一把石斧或石鏟。</strong>先看配方需求，再決定要補多少鵝卵石與木棒；不用一次製作所有工具。</li>
+            <li><strong>在基地旁試用。</strong>斧頭砍一段原木，或鏟子挖一塊泥土，觀察用途與效率。把鎬留給石頭與礦物。</li>
+            <li><strong>留意耐久度。</strong>使用過的工具下方會有耐久條，逐漸減少後工具可能損壞消失。出門前補一把備用鎬，別等在地下用完才找材料。</li>
+          </ol>
+          <div class="lesson-callout lesson-callout-sand"><h3>能挖掉，不代表能採到</h3><p>徒手或用木鎬也可能把不適合的礦物方塊破壞，但不會得到你要的礦物。先查需求，再下手。工具看起來更漂亮也不代表採集等級更高，例如金鎬不能代替石鎬採集鐵礦或銅礦。</p></div>
+        </section>
+
+        <section class="lesson-section" id="resources" aria-labelledby="resources-title">
+          <p class="eyebrow">步驟 04 / 把資源串成路線</p>
+          <h2 id="resources-title">常見資源與取得方法</h2>
+          <p>以下以沒有特殊附魔的普通工具為例。礦石是世界裡的方塊，「粗鐵、粗銅」是採集後的原料，「鐵錠、銅錠」則是熔煉後的材料。</p>
+          <dl class="control-list">
+            <div><dt>木頭 → 原木</dt><dd>找樹幹，以手或斧頭長按左鍵破壞並撿起。原木能做木材，木材能做木棒、工作台與木工具；也可保留原木燒木炭。</dd></div>
+            <div><dt>石頭 → 鵝卵石</dt><dd>在地表露出的灰色岩石處，用木鎬或石鎬採集一般石頭，通常得到鵝卵石。可製作石工具與熔爐；徒手挖一般石頭不會得到鵝卵石。</dd></div>
+            <div><dt>煤礦 → 煤炭</dt><dd>找帶黑色斑點的礦石，用木鎬或石鎬採集。煤炭可當熔爐燃料，也能搭配木棒做火把；找不到煤時，可依第二章的方法製作木炭。</dd></div>
+            <div><dt>鐵礦 → 粗鐵</dt><dd>尋找有褐色斑點的礦石，用石鎬或鐵鎬挖取，再撿起粗鐵。木鎬不符合需求。把粗鐵放入熔爐上方、燃料放下方，取出鐵錠後才用來合成鐵工具。</dd></div>
+            <div><dt>銅礦 → 粗銅</dt><dd>尋找帶橘色與綠色斑點的礦石，用石鎬或鐵鎬採集並撿起粗銅。木鎬不符合需求。粗銅需在熔爐加燃料熔煉成銅錠，可用於銅製建材，以及支援銅裝備版本的配方。</dd></div>
+          </dl>
+          <p>礦物分布會受地形、生成高度與世界版本影響，不保證在出生點附近出現。深板岩中的鐵礦、銅礦外觀背景更深，採集時同樣要選對鎬；初學時不必為了找它們往深處冒險。</p>
+          <h3>練習：把第一批粗鐵變成鐵鎬</h3>
+          <ol class="lesson-steps">
+            <li><strong>先有石鎬，再挖鐵礦。</strong>在能安全返回的地方採集至少 3 個粗鐵，注意回收掉落物；沒有找到就先回基地，不必硬找。</li>
+            <li><strong>回基地熔煉。</strong>對熔爐按右鍵，上方放粗鐵，下方放煤炭、木炭等燃料。等右側出現鐵錠後取出；3 個粗鐵可分別熔成 3 個鐵錠。</li>
+            <li><strong>在工作台合成鐵鎬。</strong>使用 3 個鐵錠與 2 根木棒，擺法與石鎬相同：鐵錠排滿最上排，木棒放中間與下排中央。取出鐵鎬、移到快捷欄，保留原本的石鎬作備用。</li>
+          </ol>
+          <p class="practice-note">預期結果：你能解釋「木頭做木鎬 → 石頭做石鎬 → 鐵礦取得粗鐵 → 熔煉成鐵錠 → 製作鐵鎬」的關係。銅是另一項可利用的資源，不是這條路線的必經步驟。</p>
+        </section>
+
+        <section class="lesson-section" id="mining" aria-labelledby="mining-title">
+          <p class="eyebrow">步驟 05 / 採得到，也要回得來</p>
+          <h2 id="mining-title">基礎採礦：工具、照明與安全準備</h2>
+          <p>這次只做基地附近的短程採集。目標是練習補光、確認方塊與保存回程路線，不追求一次找到所有礦物。</p>
+          <ol class="lesson-steps">
+            <li><strong>出發前整理快捷欄。</strong>建議帶兩把狀態良好的石鎬、食物、至少 16 支火把，以及一批泥土或鵝卵石，用來補路和封洞。這是練習建議量，不保證足夠所有洞穴；其他物品先放回基地。</li>
+            <li><strong>先檢查入口周圍。</strong>白天找附近露出的石頭或淺洞，確認退路，不要直接跳下看不見底部的洞。看到怪物、深坑或大片水流就換位置。</li>
+            <li><strong>一小段一小段前進並補光。</strong>選中火把，對牆面或地面按右鍵放置。看不清前方就先停下，不要摸黑亂挖；火把是照明工具，不會擋住從外面走來的怪物。</li>
+            <li><strong>需要往下時，做可走回來的階梯。</strong>站在已確認安全的地面，向前下方挖出一格一格的階梯，先看清下一格再移動。不要直挖自己腳下或正頭頂，避開會掉落的沙子、砂礫。</li>
+            <li><strong>採礦前先認方塊與工具。</strong>煤礦可用木鎬；鐵礦、銅礦用石鎬或鐵鎬。站在穩固地面長按左鍵挖一塊，靠近撿起，再看物品欄確認拿到什麼；不要為撿掉落物跳進深坑。</li>
+            <li><strong>固定留下回程標記。</strong>例如進去時沿右側放火把，回頭就讓同一排火把在左側；遇到岔路再補不同的方塊標記。這只是輔助，先避免進入複雜分岔。</li>
+            <li><strong>提早返回。</strong>火把、食物或工具快用完，聽到怪物、看見岩漿或水湧出時，先退回明亮且已走過的路。回基地收好原料、補工具，再規劃下一趟。</li>
+          </ol>
+          <div class="lesson-callout"><h3>先別把火把拿在手上就當作有照明</h3><p>本章以一般未加裝動態光源效果的遊戲為前提，請把火把實際放到方塊上，再確認路面看得清楚。材質包、附加內容或顯示功能可能改變視覺效果，不應取代補光與確認退路。</p></div>
+          <p class="practice-note">小練習：選一段沒有怪物的明亮短路，放置路標、採幾塊石頭或煤礦，再原路回家。能安全回程，就是這次採礦的成果。</p>
+        </section>
+
+        <section class="lesson-section" id="mistakes" aria-labelledby="mistakes-title">
+          <p class="eyebrow">卡關時回來看看</p>
+          <h2 id="mistakes-title">新手常見錯誤與解決方法</h2>
+          <dl class="mistake-list">
+            <div><dt>工作台放在背包裡，為什麼還是只有四格？</dt><dd>要把工作台放到地上，再對它按右鍵開啟，才會看到九格。按 E 開的是自己的物品欄。</dd></div>
+            <div><dt>配方書裡找不到想做的工具？</dt><dd>先確認在工作台介面，清除搜尋文字或分類篩選，檢查是否只顯示可合成配方。再核對材料與配方解鎖設定；介面不同時需要確認遊戲版本。</dd></div>
+            <div><dt>材料明明有，成品卻拿不出來？</dt><dd>看清楚需要的是木材、原木、粗鐵還是鐵錠，並把材料從箱子拿到物品欄。鐵工具要鐵錠，粗鐵需先熔煉；手動合成也要確認數量與位置。</dd></div>
+            <div><dt>鐵礦挖掉了，卻沒有拿到粗鐵？</dt><dd>可能用了木鎬或其他不符合需求的工具。往後先換石鎬或鐵鎬；也檢查物品欄是否已滿，以及世界是否有自訂掉落規則。已用錯工具破壞的方塊不會因之後換鎬而補回掉落物。</dd></div>
+            <div><dt>為什麼拿到粗銅，而不是整塊銅礦或銅錠？</dt><dd>普通工具採銅礦本來就會掉粗銅。把它帶回熔爐加燃料熔煉，才會得到可用於合成的銅錠。</dd></div>
+            <div><dt>鎬壞掉，或回程突然找不到路？</dt><dd>下次先帶備用鎬與路標材料，縮短採集距離。這次先停在已確認安全的地方，沿現有標記找回已走過的路，別為找出口繼續往未知深處挖。</dd></div>
+          </dl>
+        </section>
+
+        <section class="lesson-section" id="review" aria-labelledby="review-title">
+          <p class="eyebrow">把知識變成自己的習慣</p>
+          <h2 id="review-title">完成本章後的重點回顧</h2>
+          <ul>
+            <li><strong>先看空間：</strong>物品欄是 2×2，工作台是 3×3；熔煉則需要熔爐與燃料。</li>
+            <li><strong>再看配方：</strong>核對材料種類、數量與位置，取出成品並收進物品欄。</li>
+            <li><strong>工具分工：</strong>鎬採石與礦，斧砍木頭，鏟挖鬆軟方塊，劍應對生物，鋤頭整理耕地。</li>
+            <li><strong>先查再挖：</strong>鐵礦與銅礦先用石鎬或鐵鎬；粗鐵、粗銅還要熔煉成錠。</li>
+            <li><strong>採礦有退路：</strong>帶備用工具、食物、火把和建材，實際放置光源，不直挖腳下或頭頂，補給不足就回家。</li>
+          </ul>
+          <p>驗收任務：在工作台完成一把石鎬，帶補給做一次基地旁的短程採集，說出收集到的資源可以用來做什麼。不需要進入深洞或集滿所有礦物。</p>
+          <p class="lesson-source">資料參考（英文）：<a href="https://www.minecraft.net/en-us/article/taking-inventory-pickaxe">Minecraft 官方鎬介紹</a>、<a href="https://www.minecraft.net/en-us/article/block-week--copper-ore">銅礦介紹</a>、<a href="https://www.minecraft.net/en-us/article/the-copper-age---minecraft--bedrock-edition-1-21-111-changelog">基岩版 1.21.111 更新紀錄</a>，以及 <a href="https://minecraft.wiki/w/Raw_Iron">Minecraft Wiki 粗鐵資料</a>與<a href="https://minecraft.wiki/w/Recipe_book">配方書資料</a>。內容以自己的文字整理；舊文章的歷史敘述不代表目前所有配方與介面。</p>
+        </section>
+
+        <nav class="chapter-pagination" id="next-chapter" aria-label="章節導覽">
+          <a class="button" href="first-day.html"><span aria-hidden="true">←</span> 上一章：第一天生存</a>
+          <a href="../index.html#chapters">返回首頁</a>
+          <a class="button" href="survival-exploration.html">下一章：生存與探險 <span aria-hidden="true">→</span></a>
+        </nav>
+      </article>
+    </div>
+  </main>
+
+  <footer class="site-footer"><div class="container footer-inner"><p>Minecraft 新手生存指南 <span>｜ 一起從第一個方塊開始。</span></p><a href="#top">回到頂部 <span aria-hidden="true">↑</span></a></div><div class="container disclaimer">非官方新手教學網站，與 Mojang 或 Microsoft 無隸屬關係。</div></footer>
+</body>
+</html>
